@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "quote-api": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "env": {
+        "QUOTE_API_BASE_URL": "https://mcp-render-demo.onrender.com"
+      }
+    }
+  }
+}
+
